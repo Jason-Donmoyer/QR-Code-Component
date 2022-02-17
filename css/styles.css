@@ -1,0 +1,102 @@
+/******************************/
+        /* IMPORTS */
+/******************************/
+
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/******************************/
+        /* VARIABLES */
+/******************************/
+
+:root {
+
+
+/* COLORS */
+
+--white: hsl(0, 0%, 100%);
+--light-gray: hsl(212, 45%, 89%);
+--grayish-blue: hsl(220, 15%, 55%);
+--dark-blue: hsl(218, 44%, 22%);
+
+
+/* FONT FAMILY */
+
+--main-font-family: 'Outfit', sans-serif;
+
+
+/* FONT WEIGHTS */
+
+--fw-regular: 400;
+--fw-bold: 700;
+
+  
+}
+
+
+/******************************/
+       /* MAIN STYLES */
+/******************************/
+
+
+/* HTML */
+
+html {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Body */
+
+.main-container {
+  height: 100vh;
+  background-color: var(--light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Main Content */
+
+.main-content-container {
+  height: 33.2rem;
+  width: 21.333333rem;
+  background-color: var(--white);
+  border-radius: 1.333333rem;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+
+/* Image Container */
+
+.image-container {
+  height: 19.2rem;
+  width: 19.2rem;
+  background-color: var(--dark-blue);
+  border-radius: 0.666667rem;
+  margin: 1.066667rem auto 1.6rem auto;
+  background-image: url(../images/image-qr-code.png);
+  background-size: contain;
+}
+
+
+/* Main Copy Container */
+
+.main-copy-container {
+  height: 8.6rem;
+  width: 19.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
